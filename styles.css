@@ -1,0 +1,124 @@
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.photo {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.left {
+    display: flex;
+    gap: 30px;
+}
+
+h1,
+h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+hr {
+    width: 740px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.table {
+    margin-top: 30px;
+    display: flex;
+    border: 1px solid green;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.table-colum {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.table-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+ol {
+    margin-top: 26px;
+}
+
+.table-line {
+    display: flex;
+    justify-content: center;
+    color: green;
+    border-bottom: 1px solid green;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.border-left {
+    border-right: 1px solid green;
+}
+
+.border-right {
+    border-left: 1px solid green;
+}
+
+
+.links:hover {
+    color: rgb(9, 237, 9);
+}
+
+.links {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+.plate {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid green;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.icon {
+    height: 127px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-element {
+    display: flex;
+    flex-direction: column;
+}
