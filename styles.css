@@ -1,6 +1,16 @@
 .wrapper {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper-next {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .photo {
@@ -47,7 +57,7 @@ p {
 }
 
 .table {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     border: 1px solid green;
     border-radius: 10px;
@@ -99,8 +109,8 @@ ol {
     color: black;
 }
 
-.plate {
-    height: 30px;
+.nameplate {
+    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,10 +125,95 @@ ol {
 .icon {
     height: 127px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.image-lang {
+    padding-top: 1px;
+    height: 50px;
+    width: 50px;
 }
 
 .icon-element {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    height: 97px;
+    width: 127px;
+    transition: all linear .2s;
+}
+
+.icon-element:hover {
+    cursor: pointer;
+    background: radial-gradient(farthest-corner at 1px 1px, green, transparent);
+}
+
+.feedback {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.about {
+    margin-top: 10px;
+    display: flex;
+}
+
+.about-element {
+    display: flex;
+    flex-basis: 50%;
+    height: 35px;
+    font-size: 14px;
+}
+
+.mr{
+    margin-right: 14px;
+}
+
+.input {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.QuestionText {
+    margin-top: 10px;
+    display: flex;
+    height: 103px;
+}
+
+textarea {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 14px;
+    resize: none;
+}
+
+.PressMeGently {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    height: 33px;
+    width: 125px;
+    font-size: 14px;
+    border-radius: 8px;
 }
