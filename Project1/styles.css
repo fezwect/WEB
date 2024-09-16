@@ -147,7 +147,7 @@ ol {
 
 .icon-element:hover {
     cursor: pointer;
-    background: radial-gradient(farthest-corner at 1px 1px, green, transparent);
+    box-shadow: 5px 5px 5px 5px rgba(5, 231, 54, 20%);
 }
 
 .feedback {
