@@ -77,7 +77,7 @@ body {
     height: 20px;
 }
 
-.app_list-text {
+.app__list-text {
     margin: 0;
     flex-grow: 1;
     font-size: 18px;
