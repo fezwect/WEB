@@ -33,11 +33,13 @@ function deleteByID(id){
     syncData()
 }
 
-function ToDoIsDone(isDone){
-    const elem = data.findIndex((el) => {
-        return el.isDone = !isDone
+function ToDoIsDone(id){
+
+    const item = data.find((i) => {
+        if (i.id === id){
+            return i.isDone = !i.isDone
+        }
     })
-    console.log(elem)
     syncData()
 }
 
@@ -66,7 +68,7 @@ function createTask(objectData) {
 
 
     root.addEventListener('click', ()=>{
-        ToDoIsDone(objectData.isDone)
+        ToDoIsDone(objectData.id)
     })
     
 

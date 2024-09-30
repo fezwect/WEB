@@ -62,6 +62,10 @@ body {
     border-radius: 10px;
 }
 
+.app__list-item:hover {
+    cursor: pointer;
+}
+
 .app__list-btn {
     background: none;
     border: none;
@@ -75,6 +79,10 @@ body {
 .app__list-checkbox {
     width: 20px;
     height: 20px;
+}
+
+.app__list-checkbox:hover {
+    cursor: pointer;
 }
 
 .app__list-text {
